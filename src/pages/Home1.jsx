@@ -30,6 +30,9 @@ setAllfood(data.hits);
   }
   return  (
     <div className='row d-flex justify-content-center gap-2'>
+      <h1>this is recipe application</h1>
+      <h2>heading two</h2>
+      <h3>hello</h3>
       <div className='baba'>
         <input ref={getValue} className='dishes' placeholder='Search..' type="text" />
         <button  onClick={searching} className='pakwaan'>Search</button>
