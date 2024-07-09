@@ -12,7 +12,7 @@ const Home1 = () => {
 
   let getData =async()=>{
     let res = await fetch(`https://api.edamam.com/search?q=${searchValue}&app_id=e0c1e7a7&app_key=
-73238160933dcb92a70344ce41e23a21`);
+3494e718e92f5405cc98fa7904b18246`);
 let data = await res.json();
 setAllfood(data.hits);
   }
